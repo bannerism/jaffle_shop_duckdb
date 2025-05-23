@@ -1,9 +1,3 @@
-Of course. You are absolutely right, my apologies. Wrapping the text in a code block was meant to help, but it clearly broke the formatting for the code snippets inside.
-
-Here is the raw Markdown content directly. Please copy everything from the `# Jaffle Shop...` line down to the very end. This will render correctly on GitHub.
-
----
-
 # Jaffle Shop: Semantic Layer & Sales Insights POC
 
 This project extends the classic dbt Labs "Jaffle Shop" dataset to serve as a Proof of Concept (POC) for a modern data workflow designed to empower sales teams.
