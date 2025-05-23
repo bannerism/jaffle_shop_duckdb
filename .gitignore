@@ -1,4 +1,4 @@
-
+# dbt artifacts
 target/
 dbt_packages/
 dbt_internal_packages/
@@ -11,3 +11,20 @@ venv/
 env/
 **/*.duckdb
 **/*.duckdb.wal
+
+# Local env
+.env
+
+# DuckDB files
+*.db
+*.db.wal
+
+# VS Code
+.vscode/
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Cloned dependency source code
+dbt-mcp/

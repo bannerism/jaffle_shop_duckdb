@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: dim_daily_spine
+    description: "Master calendar table (time spine) at the daily grain, required by the dbt Semantic Layer."
+    meta:
+      metricflow_time_spine: true
+    columns:
+      - name: date_day
+        description: "The primary time column for the spine."
+        meta:
+          is_primary_key: true

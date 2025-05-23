@@ -1,5 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/python:3.9
-
+dbt seed
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
